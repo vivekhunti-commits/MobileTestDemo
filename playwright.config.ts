@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: true,
   retries: 1,
-  reporter: [['html', { open: 'never' }], ['list']],
+  reporter: [['html', { open: 'never' }], ['list'], ['github']],
   use: {
     baseURL: 'https://www.saucedemo.com',
     trace: 'retain-on-failure',
